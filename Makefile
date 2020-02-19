@@ -1,9 +1,12 @@
+test!!!! Please don't corrupt other's jobs!
+
 PYTHON = python
 PYTHON3 = python3
 PYTHON26 = python2.6
 PYTHON27 = python2.7
 PYTHON31 = python3.1
 PYTHON32 = python3.2
+
 
 README.rst : vt100.py
 	$(PYTHON) $^ --man > $@
